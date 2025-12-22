@@ -60,4 +60,5 @@ async def evento():
         if cooldown[user] <= 0:
             del cooldown[user]
 
-bot.run("SEU_TOKEN_DO_BOT")
+import os
+bot.run(os.getenv(MTQ1Mjc0MjgxNzkyMjQxNjc5NA.GB6zip.cUfXQdaqAoG_NxR3hsihdoTuj7U3srk5hvIjKg))
