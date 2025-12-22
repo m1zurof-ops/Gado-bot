@@ -18,7 +18,7 @@ async def on_ready():
 
 @tasks.loop(minutes=2)
 async def evento():
-    channel = bot.get_channel(SEU_CANAL_ID_AQUI)
+    channel = bot.get_channel(1359295941194027019)
 
     certo = random.choice(EMOJIS)
     opcoes = random.sample(EMOJIS, 4)
