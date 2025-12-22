@@ -61,4 +61,4 @@ async def evento():
             del cooldown[user]
 
 import os
-bot.run(os.getenv(MTQ1Mjc0MjgxNzkyMjQxNjc5NA.Gf8zXe.8Mo64wJDBP-LEe2RTdKpIb5iR6Gb_SsCOmt3-k))
+bot.run(os.getenv("DISCORD_TOKEN"))
